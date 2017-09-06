@@ -44,13 +44,13 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The encoding of source files.
-#source_encoding = 'utf-8-sig'
+source_encoding = 'utf-8-sig'
 
 # The master toctree document.
 master_doc = 'index'
 
 # General information about the project.
-project = 'Świat Reeborg-a'
+project = u'Świat Reeborg-a'
 copyright = u'André Roberge'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -115,7 +115,7 @@ html_theme = 'reeborg_theme_pl'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "Ucz się Python-a z Reeborg"
+html_title = u'Ucz się Python-a z Reeborg'
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ["../"]
